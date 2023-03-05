@@ -1,0 +1,20 @@
+/snap/clion/222/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/snap/clion/222/bin/ninja/linux/x64/ninja -G Ninja -S /home/axcens/epita/CPP/cmake/cipeek -B /home/axcens/epita/CPP/cmake/cipeek/cmake-build-debug
+-- The C compiler identification is GNU 11.3.0
+-- The CXX compiler identification is GNU 11.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+CMake Error at CMakeLists.txt:11 (target_link_libraries):
+  Cannot specify link libraries for target "ciutils" which is not built by
+  this project.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/axcens/epita/CPP/cmake/cipeek/cmake-build-debug/CMakeFiles/CMakeOutput.log".
